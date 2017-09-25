@@ -1,0 +1,33 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mondrain Layout</title>
+		<link rel="stylesheet" href="mondrain.css">
+	</head>
+
+	<!-- The entire BODY is set to 'display: flex' which means the DIVs on lines 13 and 21 will display side-by-side -->
+	<body class="flex-container">
+		<!-- This DIV will take up 75% of the viewport width (and 100% of the viewport height) -->
+		<div class="blue center-vertical center-horizontal wide-col">
+			<!-- The two classes are being used to center the image horizontally and vertically --> 
+			<div class="center-horizontal">
+				<img>
+				</img>
+			</div>
+		</div>
+		
+		<!-- This DIV will take up 25% of the viewport width (and 100% of the viewport height) -->
+		<div>
+			<!-- This DIV takes up 100% of its parent DIV and the top 50% of its height -->
+			<div class="narrow-col red">
+			</div>
+			<!-- This DIV takes up 100% of its parent DIV and the bottom 50% of its height -->
+			<div class="narrow-col yellow">
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
